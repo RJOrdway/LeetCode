@@ -418,10 +418,11 @@ FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -438,7 +439,9 @@ FodyWeavers.xsd
 *.sln.iml
 
 # VS Code launch.json
-.vscode/launch.json
-.vscode/tasks.json
-.vscode/settings.json
-c++/Number of Islands/.vscode/tasks.json
+# */.vscode/*
+# .vscode/launch.json
+# .vscode/tasks.json
+# .vscode/settings.json
+# c++/Number of Islands/.vscode/tasks.json
+# c++/Rotate Image/.vscode/tasks.json

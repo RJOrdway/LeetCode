@@ -440,3 +440,5 @@ FodyWeavers.xsd
 # VS Code launch.json
 .vscode/launch.json
 .vscode/tasks.json
+.vscode/settings.json
+c++/Number of Islands/.vscode/tasks.json
